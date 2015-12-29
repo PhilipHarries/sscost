@@ -1,0 +1,88 @@
+table {
+    font-family: sans-serif;
+	border-collapse: collapse;
+	width: 99%;
+    color: rgb(80,80,80);
+}
+
+table, th, td { 
+	text-align: left;
+	padding: 2px;
+}
+
+tr.notshown {
+    display: none;
+}
+
+tr.title th {
+	background-color: rgb(57,117,200);
+	color: rgb(250,230,200);
+    font-weight: bold;
+}
+
+tr.account td {
+    background-color: rgb(89,138,230);
+    color: rgb(250,230,200);
+    cursor: pointer;
+}
+
+tr.vdc td {
+    background-color: rgb(99,99,230);
+    color: rgb(230,200,210);
+    cursor: pointer;
+}
+
+tr.vapp td {
+    background-color: rgb(173,173,240);
+    color: rgb(50,33,19);
+    cursor: pointer;
+}
+
+tr.odd td {
+	background-color: rgb(170,170,190);
+}
+
+tr.even td {
+	background-color: rgb(150,160,195);
+}
+
+tr.total td {
+	background-color: rgb(47,122,196);
+    color: rgb(125,50,40);
+    font-weight: bold;
+}
+
+tr.vmoff td {
+	color: rgb(140,140,140);
+	font-style: italic;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+circle {
+    fill: rgb(30,120,180);
+    fill-opacity: .25;
+    stroke: rgb(210,230,250);
+    stroke-width: 1px;
+    }
+
+.leaf circle {
+    fill: rgb(10,100,200);
+    fill-opacity: .8;
+    stroke: rgb(180,190,230);
+    stroke-width: 1px;
+    }
+
